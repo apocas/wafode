@@ -1,0 +1,25 @@
+{
+  "name": "helloworld-node",
+  "description": "helloworld-node",
+  "version": "0.1.0",
+  "author": "Pedro Dias <petermdias@gmail.com>",
+  "maintainers": [
+    "apocas <petermdias@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/apocas/helloworld-node.git"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node main"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
