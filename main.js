@@ -1,10 +1,4 @@
-var http = require('http');
+var Waf = require('./lib/waf');
 
-setInterval(function() {
-  console.log('Hello world!');
-}, 5000);
-
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(80);
+var waf = new Waf();
+waf.start();

@@ -1,25 +1,33 @@
 {
-  "name": "helloworld-node",
-  "description": "helloworld-node",
-  "version": "0.1.0",
-  "author": "Pedro Dias <petermdias@gmail.com>",
-  "maintainers": [
-    "apocas <petermdias@gmail.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/apocas/helloworld-node.git"
+  "name": "wafode",
+  "version": "0.0.5",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
   },
-  "keywords": [
-  ],
   "dependencies": {
-  },
-  "devDependencies": {
+    "@maxmind/geoip2-node": "^2.0.1",
+    "@slack/webhook": "^6.1.0",
+    "async": "^3.2.0",
+    "dateformat": "^4.3.1",
+    "elasticsearch": "^16.7.2",
+    "figlet": "^1.5.0",
+    "natural": "^2.1.5",
+    "node-fetch": "^2.6.7",
+    "progress": "^2.0.3",
+    "redis": "^3.0.2",
+    "synaptic": "^1.1.4",
+    "ua-parser-js": "^0.7.23"
   },
   "scripts": {
-    "start": "node main"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "/bin/bash ./scripts/update.sh"
   },
-  "engines": {
-    "node": ">= 0.8"
-  }
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/apocas/wafode.git"
+  },
+  "author": "",
+  "license": "ISC"
 }
