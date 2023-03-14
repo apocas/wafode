@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "Downloading GeoLite Databases..."
-wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=oA8rjNuhRmxNNhAK&suffix=tar.gz" -O asn.tar.gz
-wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=oA8rjNuhRmxNNhAK&suffix=tar.gz" -O country.tar.gz
+wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=KEY&suffix=tar.gz" -O asn.tar.gz
+wget "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=KEY&suffix=tar.gz" -O country.tar.gz
 
 echo "Extracting..."
 tar -zxvf asn.tar.gz
